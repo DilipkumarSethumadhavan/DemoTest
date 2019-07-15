@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UITest (Cucumber)"  parallel="classes" thread-count="1" >
+  <test name="UITest">
+    <classes>
+      <class name="autoapp.automation.runner.AutomationChallengeTest" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
